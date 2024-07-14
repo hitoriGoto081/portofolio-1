@@ -131,7 +131,7 @@ html,body{
 .imgBox{
   width: 140px;
   height: 140px;
-  background-image: url('/assets/19-removebg-preview.png');
+  background-image: url('assets/19-removebg-preview.png');
   background-size: cover;
   border-radius: 50%;
 }
