@@ -1,0 +1,11 @@
+index.html
+<i class="fa-solid fa-bars fa-2xl" id="bars"></i>
+
+style.css
+#bars{
+  margin-left: 20px;
+}
+main.js
+
+
+buatkan saya sebuah animasi dropdown navbar jika icon bars dengan id bars di tekan
