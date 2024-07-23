@@ -31,7 +31,7 @@
   }
   .header{
     position: absolute;
-    right: 44%;
+    right: 42%;
     font-size: 30px;
   }
   .numbers{
@@ -41,7 +41,7 @@
     border: 1px solid white;
     position: absolute;
     top: 50%;
-    right: 44%;
+    right: 42%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,6 +118,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0 10px 0;
   }
   .prof{
     width: 80%;
@@ -140,7 +141,8 @@
     height: 200px;
     background-color: #ffd35a;
     border-radius: 30px;
-    margin: 50px 0 0 25px;
+    position: relative;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,6 +154,163 @@
     background-size: cover;
     border-radius: 50%;
   }
+  .content{
+    width: 70%;
+    position: relative;
+    margin: 30px auto 25px;
+  }
+  .tabel-informasi{
+    width: 60%;
+    position: relative;
+    margin: auto;
+  }
+  .tabel-informasi table{
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 6px;
+  }
+  .tabel-informasi th{
+    font-size: 20px;
+    padding: 6px;
+    border-bottom: 1px solid silver;
+  }
+  .tabel-informasi td{
+    font-size: 16px;
+    padding: 6px;
+  }
+  .tabel-informasi .tc{
+    color: #ffd35a;
+  }
+  .btn{
+    display: none;
+  }
+  .slider{
+    width: 80%;
+    position: relative;
+    margin: 50px auto 0;
+    background-color: rgba(255, 211, 90, .5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid silver;
+    border-radius: 20px;
+  }
+  .slides{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .slides img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 6px;
+    margin-bottom: 30px;
+  }
+  .contact{
+    width: 70%;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ffd35a;
+    border-radius: 20px;
+  }
+  .contact h2{
+    text-align: center;
+    padding-top: 25px;
+  }
+  .contact h3{
+    text-align: center;
+  }
+  .contact .github{
+    width: 60%;
+    height: 30px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .github a{
+    text-decoration: none;
+    color: black;
+  }
+  .contact .logo{
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 12px;
+  }
+  .logo a{
+    text-decoration: none;
+    color: black;
+  }
+  #form{
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    border: 1px solid black;
+  }
+  .cp{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .dev{
+    color: #ffd35a;
+    font-size: 14px;
+    text-align: center;
+  }
+  .tengah{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+  }
+  .tengah textarea{
+    resize: none;
+  }
+  #nama{
+    width: 45%;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 14px;
+  }
+  #email{
+    width: 45%;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  #feedback{
+    background-color: white;
+    border: 1px solid black;
+  }
+  #send{
+    background-color: silver;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 10px;
+  }  
 }
 
 
