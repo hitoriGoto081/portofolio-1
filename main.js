@@ -12,6 +12,7 @@ document.getElementById('bars').addEventListener('click', function() {
         dropdown.style.display = 'none';
     }
 });
+// animasi dropdown
 document.querySelectorAll('.dropdown-content a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
         e.preventDefault();
@@ -27,6 +28,7 @@ document.querySelectorAll('.dropdown-content a').forEach(anchor => {
     });
 });
 
+// function untuk sweet alert
 function send(){
   Swal.fire({
   title: "Kirim Feedback?",
